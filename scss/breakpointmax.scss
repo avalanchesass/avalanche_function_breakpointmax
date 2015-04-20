@@ -1,0 +1,26 @@
+/**
+ * Dependencies
+ */
+// System
+@import 'system/variable';
+
+
+
+@if variable-exists(function-breakpointmax-imported) == false {
+  /**
+   * @name breakpointmax
+   * @level 2.2.5.
+   * @description
+   *   Get the max-width value of a breakpoint  
+   *   avalanche-breakpointmax($breakpoint, $base: $font-base-size)
+   */
+  @function avalanche-breakpointmax($breakpoint, $base: $font-base-size) {
+    @if unit($breakpoint) == em {
+      $em1px: 1 / avalanche-strip-units($base);
+      @return $breakpoint - $em1px;
+    }
+    @return $breakpoint - 1;
+  }
+
+  $function-breakpointmax-imported: true;
+}
