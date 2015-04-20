@@ -4,6 +4,9 @@
 // System
 @import 'system/variable';
 
+// Function
+@import 'avalanche_function_strip_unit/scss/strip_unit';
+
 
 
 @if variable-exists(function-breakpointmax-imported) == false {
@@ -16,7 +19,7 @@
    */
   @function avalanche-breakpointmax($breakpoint, $base: $font-base-size) {
     @if unit($breakpoint) == em {
-      $em1px: 1 / avalanche-strip-units($base);
+      $em1px: 1 / avalanche-strip-unit($base);
       @return $breakpoint - $em1px;
     }
     @return $breakpoint - 1;
