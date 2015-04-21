@@ -1,26 +1,14 @@
 /**
- * Dependencies
+ * @name breakpointmax
+ * @level X.X.X.
+ * @description
+ *   Get the max-width value of a breakpoint  
+ *   avalanche-breakpointmax($breakpoint, $base: $font-base-size)
  */
-// Function
-@import 'avalanche_function_strip_unit/scss/strip_unit';
-
-
-
-@if variable-exists(function-breakpointmax-imported) == false {
-  /**
-   * @name breakpointmax
-   * @level X.X.X.
-   * @description
-   *   Get the max-width value of a breakpoint  
-   *   avalanche-breakpointmax($breakpoint, $base: $font-base-size)
-   */
-  @function avalanche-breakpointmax($breakpoint, $base: $font-base-size) {
-    @if unit($breakpoint) == em {
-      $em1px: 1 / avalanche-strip-unit($base);
-      @return $breakpoint - $em1px;
-    }
-    @return $breakpoint - 1;
+@function avalanche-breakpointmax($breakpoint, $base: $font-base-size) {
+  @if unit($breakpoint) == em {
+    $em1px: 1 / avalanche-strip-unit($base);
+    @return $breakpoint - $em1px;
   }
-
-  $function-breakpointmax-imported: true;
+  @return $breakpoint - 1;
 }
