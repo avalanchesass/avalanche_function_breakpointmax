@@ -3,11 +3,11 @@
  * @level X.X.X.
  * @description
  *   Get the max-width value of a breakpoint  
- *   avalanche-breakpointmax($breakpoint, $base: $font-base-size)
+ *   breakpointmax($breakpoint, $base: $font-base-size)
  */
-@function avalanche-breakpointmax($breakpoint, $base: $font-base-size) {
+@function breakpointmax($breakpoint, $base: $font-base-size) {
   @if unit($breakpoint) == em {
-    $em1px: 1 / avalanche-strip-unit($base);
+    $em1px: 1 / strip-unit($base);
     @return $breakpoint - $em1px;
   }
   @return $breakpoint - 1;
