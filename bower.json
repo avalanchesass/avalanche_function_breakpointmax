@@ -18,6 +18,7 @@
     "tests"
   ],
   "dependencies": {
-    "avalanche_function_strip_unit": "dev"
+    "avalanche_function_strip_unit": "dev",
+    "avalanche_system_variable": "dev"
   }
 }
