@@ -5,10 +5,10 @@
  *   Get the max-width value of a breakpoint
  *
  * @markup [scss]
- *   @media (breakpointmax(min-width: $breakpoint-m)) {
+ *   @media (breakpointmax(max-width: $breakpoint-m)) {
  *     .foo { }
  *   }
- *   @media (breakpointmax(min-width: $breakpoint-m, 14px)) {
+ *   @media (breakpointmax(max-width: $breakpoint-m, 14px)) {
  *     .foo { }
  *   }
  */
