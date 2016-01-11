@@ -1,4 +1,4 @@
-# avalanche: Function breakpointmax
+# avalanche_function_breakpointmax
 Get the max-width value of a breakpoint  
 https://github.com/avalanchesass/avalanche_function_breakpointmax
 
