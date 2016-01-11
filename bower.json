@@ -8,7 +8,7 @@
   "homepage": "https://github.com/avalanchesass/avalanche_function_breakpointmax",
   "license": "GPL v2",
   "dependencies": {
-    "avalanche_function_strip_unit": "^3.0.0"
+    "avalanche_function_strip_unit": "avalanchesass/avalanche_function_strip_unit#dev-3.0.0",
   },
   "main": "scss/_breakpointmax.scss",
   "ignore": [
