@@ -10,10 +10,10 @@ breakpointmax($breakpoint[, $base: $font-base-size])
 ```
 
 ```css
-@media (max-width: breakpointmax(map-get($breakpoints, 'm'))) {
+@media (max-width: breakpointmax(map-get($breakpoints, m))) {
   .foo { }
 }
-@media (max-width: breakpointmax(map-get($breakpoints, 'm'), 14px)) {
+@media (max-width: breakpointmax(map-get($breakpoints, m), 14px)) {
   .foo { }
 }
 ```
