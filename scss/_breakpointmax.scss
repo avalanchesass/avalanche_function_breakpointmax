@@ -19,7 +19,7 @@ breakpointmax($-breakpoint[, $-base: $font-base-size])
 ```
 */
 @function breakpointmax($-breakpoint, $-base: $font-base-size) {
-  @if unit($-breakpoint) == em {
+  @if unit($-breakpoint) == em or unit($-breakpoint) == rem {
     $-em1px: 1 / strip-unit($-base);
     @return $-breakpoint - $-em1px;
   }
