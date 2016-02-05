@@ -2,6 +2,7 @@
 Get the max-width value of a breakpoint  
 https://github.com/avalanchesass/avalanche_function_breakpointmax
 
+## About
 ### Author
 Markus Oberlehner  
 Twitter: https://twitter.com/MaOberlehner
