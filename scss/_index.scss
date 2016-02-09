@@ -11,7 +11,6 @@ Get the max-width value of a breakpoint.
 ```css
 breakpointmax($-breakpoint[, $-base: $font-base-size])
 ```
-
 ```css
 @media (max-width: breakpointmax(map-get($breakpoints, m))) {
   .foo { }
