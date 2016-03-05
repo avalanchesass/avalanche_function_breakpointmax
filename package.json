@@ -11,7 +11,7 @@
   "homepage": "https://github.com/avalanchesass/avalanche_function_breakpointmax",
   "license": "GPL v2",
   "dependencies": {
-    "avalanchesass_function_strip_unit": "avalanchesass/avalanche_function_strip_unit#dev-3.0.0"
+    "avalanchesass_function_strip_unit": "^3.0.0"
   },
   "repository": {
     "type": "git",
