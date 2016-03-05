@@ -1,7 +1,18 @@
-# avalanche: Function breakpointmax
-Get the max-width value of a breakpoint  
-https://github.com/avalanchesass/avalanche_function_breakpointmax
+# avalanchesass_function_breakpointmax
+Get the max-width value of a breakpoint.
 
+## Install
+```
+npm install avalanchesass_function_breakpointmax --save
+```
+
+## Basic usage
+```css
+/* Import the main file. */
+@import 'avalanchesass_function_breakpointmax';
+```
+
+## About
 ### Author
 Markus Oberlehner  
 Twitter: https://twitter.com/MaOberlehner
